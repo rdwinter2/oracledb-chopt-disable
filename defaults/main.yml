@@ -1,2 +1,9 @@
 ---
-# defaults file for role_template
+# Oracle Advanced Analytics
+oaa: disable
+# Oracle OLAP
+olap: disable
+# Oracle Partitioning
+partitioning: disable
+# Oracle Real Application Testing
+rat: disable

@@ -1,2 +1,13 @@
 ---
 # tasks file for role_template
+# Check to see if database is created
+# Stop the database
+
+# cd $ORACLE_HOME/bin
+# srvctl stop database -d myDb
+
+# Disable the options by removing it from the kernel
+# chopt disable dm
+
+# Restart the database
+# srvctl start database -d myDb
